@@ -107,7 +107,7 @@ function send() {
 
    } else {
       alert('Mensaje enviado con éxito!!');
-      window.location.href = "/index.html"
+      window.location.href = "index.html"
    }
 
 
