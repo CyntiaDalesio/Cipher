@@ -1,0 +1,200 @@
+#body{
+background: url(https://generacionxbox.com/wp-content/uploads/2020/01/League-of-Legends-Grieta-940x529.jpg.webp) no-repeat center center fixed;
+-webkit-background-size: cover; 
+ -moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#first{
+    background: url(https://www.wallpaperuse.com/wallp/90-902890_m.jpg) center center fixed;
+    -webkit-background-size: cover; 
+     -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+ 
+section {
+   align-content: center;
+   text-align: center;
+}
+.h1 {
+    animation: bouncel 5s alternate infinite ease-in;
+}
+@keyframes bouncel {
+    0%{
+        transform: translate(20%);
+    }
+    100%{
+        transform: translate(60%);
+    }
+}
+
+.h1mesagge {
+    animation: bouncel 5s alternate infinite ease-in;
+}
+@keyframes bouncel {
+    0%{
+        transform: translate(20%);
+    }
+    100%{
+        transform: translate(60%);
+    }
+}
+
+.h2 {
+    color:#474747;
+   font-family: 'Roboto',sans-serif;
+   font-size: 20px;
+}
+
+.h1 {
+    color:white;
+    font-size: 25px;
+}
+
+nav {
+    font-family: cursive;
+  padding: 1rem;
+}
+
+#string {
+    
+    border-radius: 0;
+    caret-color: #27c7ba;
+    border: 1px solid #7f9285;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px #a6a6a6;
+transition:box-shadow 2s, transform 500ms, filter 500ms ease-in-out; 
+}
+#stringOutput, input {
+    
+    border-radius: 0;
+    caret-color: #27c7ba;
+    border: 1px solid #7f9285;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px #a6a6a6;
+transition:box-shadow 2s, transform 500ms, filter 500ms ease-in-out; 
+    
+}
+button {
+   
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: #4e704f;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px #646464}
+#decode,#encode {
+
+    background-color: #4e704f;
+    box-shadow: 0 5px #646464;
+    
+}
+
+
+ #encode:hover, #decode:hover{
+    background-color: #204220;
+
+
+}
+
+h2 {
+    text-align: center;
+    padding-top: 0.5rem;
+}
+div {
+    text-align: center;
+}
+select#region{
+background-color: rgb(204, 204, 204);
+color: rgb(15, 11, 15);
+border: 2px black solid ;
+padding:  10px;
+width:200px; 
+}
+
+select#champ {
+    padding:  10px;
+    background-color: rgb(204, 204, 204);
+    border: 2px black solid ;
+    
+     width:200px; 
+}
+
+.div {
+
+width: 450px;
+margin: auto;
+background: rgba(233, 179, 179, 0.6);
+padding: 10px 20 px;
+box-sizing: border-box;
+margin-top: 20px;
+border-radius: 7px;
+box-shadow: 10px 10px #a6a6a6;
+
+}
+.submit:hover {
+    background-color: #204220;
+
+}
+
+.h2 {
+    background: rgba(233, 179, 179, 0.6);
+
+}
+
+input, textarea {
+
+    width: 50%;
+   
+    padding: 10px 20px;
+box-sizing: border-box;
+
+}
+
+
+
+textarea {
+   margin-bottom: 20px; /*espacio entre textarea y el label de abajo*/
+    min-height: 50px;
+    max-height: 100px;
+    max-width: 100%;
+}
+.buttons {
+    margin-top: 10px;
+}
+
+button, select {
+    margin-bottom: 20px; 
+}
+
+
+
+  .submit {
+    margin: 20px; 
+
+  }
+  
+  button:hover {background-color: #204220}
+  
+   button:active {
+    transform: translateY(4px);
+  }
+footer {
+background-image: url('https://img.freepik.com/vector-gratis/fondo-oro-lujo_52683-43998.jpg?size=626&ext=jpg');
+color:whitesmoke;
+text-align: center;
+padding: 1rem;
+margin-top: 5rem;
+width: 100%;
+}
+label{
+  
+font-family:sans-serif;
+
+}
