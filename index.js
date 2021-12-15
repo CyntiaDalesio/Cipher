@@ -1,4 +1,4 @@
-import cipher from './cipher.js';
+import cipher from './docs/cipher.js';
 
 let buttonEncode = document.getElementById('encode');
 
@@ -88,7 +88,7 @@ if (champ != null) {
 
 function back() {
   
-   window.location.href = "index.html"
+   window.location.href = "/index.html"
 }
 
 function clear() {
@@ -107,7 +107,7 @@ function send() {
 
    } else {
       alert('Mensaje enviado con éxito!!');
-      window.location.href = "index.html"
+      window.location.href = "/index.html"
    }
 
 
